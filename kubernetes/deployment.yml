@@ -19,7 +19,6 @@ spec:
           image: username/apigate:latest
           ports:
             - containerPort: 8080
-
 #          readinessProbe:
 #            httpGet:
 #              path: '/actuator/health'
